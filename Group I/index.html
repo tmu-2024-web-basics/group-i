@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>コンビニソムリエ</title>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <div class="relative">
+        <img src="IMG/background.PNG" width="80%">
+        <img src="IMG/bear.PNG" width="80%" class="absolute2">
+        <img src="IMG/counter.PNG" width="80%" class="absolute">
+        <div class="quiz-container">
+            <div id="quiz">
+            </div>
+            <button id="answerButton" style="display:none;" onclick="checkAnswerAndScore()">これを渡す！</button>
+            <button id="nextQuestionButton" style="display:none;" onclick="nextQuestion()">次の問題へ</button>
+            <div id="result"></div>
+            <div class="answer-images" id="answerImages"></div>
+        </div>
+    </div>
+    <div class="TOPPAGE">
+   <a href="index2.html"><img src="IMG/Logo.png" alt="はじめに戻る" width="30%" ></a></div>
+    <script src="quiz.js"></script>
+</body>
+</html>
