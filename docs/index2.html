@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>あなたはコンビニソムリエ</title>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <div class="relative">
+        <!-- <img src="images/background.PNG" width="80%"> -->
+        <!-- <img src="images/bear.PNG" width="80%" class="absolute2"> -->
+        <!-- <img src="images/counter.PNG" width="80%" class="absolute"> -->
+        <img src="images/background.jpg" width="80%" > 
+        <div class="message"><h3>
+             <br>どれを渡す？</br></h3>
+       
+        <h4>いちばんあっていると思うものを渡そう！</h4>
+        <h4>タップするとステータスがみられるよ</h4></div>
+        <div class="quiz-container">
+           
+            <div id="quiz">
+            </div>
+           
+            <button id="answerButton" style="display:none;" onclick="checkAnswerAndScore()">これを渡す！</button>
+            <button id="nextQuestionButton" style="display:none;" onclick="nextQuestion()">次の問題へ</button>
+            <div id="result"></div>
+            <div class="answer-images" id="answerImages"></div>
+        </div>
+    </div>
+    <div class="TOPPAGE">
+   <a href="index.html"><img src="images/Logo.png" alt="はじめに戻る" width="30%" ></a></div>
+    <script src="quiz.js"></script>
+</body>
+</html>

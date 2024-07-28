@@ -1,0 +1,235 @@
+
+.answer-image img {
+    width: 80%; /* 答えの画像サイズを適切に調整 */
+
+    object-fit: cover;
+}
+
+.selected-option img {
+    width: 50%; /* 選択したオプションの画像サイズを適切に調整 */
+    
+    object-fit: cover;
+}
+
+.question {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#answerButton, #nextQuestionButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; /* ボタンの背景色を変更 */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#answerButton:hover, #nextQuestionButton:hover {
+    background-color: #218838; /* ホバー時の色を少し濃くする */
+}
+
+#quiz {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#result {
+    display: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.score {
+    font-size: 0px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.score-images img {
+    width: 80vw;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans",sans-serif;
+}
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .quiz-container {
+            text-align: center;
+        }
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .question-image {
+           width:"80%";
+        }
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .option-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin:1vw;
+            padding: 3vw;
+            color: white;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            flex: 2vw;
+            position: relative;
+            transition: background-color 0.3s ease;
+        }
+        .option-button img {
+            width: 21vw;
+            display: block;
+            pointer-events: none;
+            justify-content: center;
+        }
+    
+        .option-button:hover {
+            text-align: center;
+            width:22vw;
+            background-color: #ecec91;
+        }
+    
+        .selected {
+            background-color: #45a049 !important;
+        }
+        #answerButton {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #answerButton:hover {
+            background-color: #204c22;
+        }
+        #nextQuestionButton {
+            display: none; /* 最初は非表示 */
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #2196F3; /* 青色 */
+            color: white;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #nextQuestionButton:hover {
+            background-color: #095390;
+        }
+        #result {
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .answer-images {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .answer-images img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+        }
+        .question-image{
+            max-width: 80%;
+            height: auto;
+            margin: 10px;
+        }
+        .absolute {
+            position: absolute;
+            right: 10.1vw;
+            top: 0vw;
+        }
+
+       .absolute2 {
+        text-align: center;
+           position: absolute;
+    right: 10vw;
+    top: 8vw;
+  }
+   
+  
+br {
+  display: block;
+  margin: 1.5vw;
+  }
+  .relative {
+    position: relative;
+    text-align: center;
+    background-color: #fff5db;
+  }
+
+  .opening{
+    position: absolute;
+    top: 39vw;
+    left: 43vw;
+    
+  }
+  /* .opening:hover{
+   color: #3b3b24;
+  } */
+  .TOPPAGE{
+    position:absolute;
+    top: 0vw;
+    left: 0vw;
+  }
+  .TOPPAGE:hover{
+    /* filter: saturate(300%); */
+    filter: brightness(80%);
+  }
+  
+
+  h3{
+    top:1000vw
+    position : center;
+    font-size : 3vw;
+    text-align: center;
+
+  }
+  
+  h4{
+   
+    font-size: 1.5vw;
+    text-align: center;
+    
+  }
+  .opening:hover{
+   filter :saturate(300%);
+  }
+/* .message{
+    top: 
+    
+}
+   */
